@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/Agualimpia/Agua-Limpia-android-studio/app/src/main/res/layout/comomedir_fragment.xml" value="0.22" />
+        <entry key="..\:/Android/Agualimpia/Agua-Limpia-android-studio/app/src/main/res/layout/content_main.xml" value="0.25" />
+        <entry key="..\:/Android/Agualimpia/Agua-Limpia-android-studio/app/src/main/res/layout/nav_header_main_fragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/Agualimpia/Agua-Limpia-android-studio/app/src/main/res/menu/activity_main_drawer.xml" value="0.25" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/drawable/background_share_text.xml" value="0.3828125" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/drawable/buttom_comentar.xml" value="0.3828125" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/drawable/circle_skeleton.xml" value="0.231" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/drawable/corner_boton_outline.xml" value="0.3828125" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/drawable/corner_radius_style.xml" value="0.231" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/drawable/custom_bartop.xml" value="0.3828125" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/drawable/custom_botom.xml" value="0.3828125" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/drawable/custom_button_nocolor.xml" value="0.3828125" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/drawable/custom_comentar_background.xml" value="0.3828125" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/drawable/custom_edit_text.xml" value="0.3828125" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/drawable/custom_progress_bar.xml" value="0.22135416666666666" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/drawable/custom_spinner_image.xml" value="0.3828125" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/drawable/ic_arrow_back.xml" value="0.2453125" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/drawable/ic_arrow_back_white.xml" value="0.2453125" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/drawable/ic_back_white.xml" value="0.2453125" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/drawable/ic_google_color.xml" value="0.3828125" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/drawable/ic_gps_icon.xml" value="0.3828125" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/drawable/ic_image_camera.xml" value="0.3769230769230769" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/drawable/ic_menu.xml" value="0.2453125" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/drawable/ic_person_black.xml" value="0.3828125" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/drawable/ic_photo_camera.xml" value="0.3769230769230769" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/drawable/my_custom_selector_link_compartir.xml" value="0.3769230769230769" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/drawable/normal_button.xml" value="0.3828125" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/activity_anacroneuria.xml" value="0.19114583333333332" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/activity_animals_challenger.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/activity_animals_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/activity_butterfly_challenge.xml" value="0.33" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/activity_cat_challenge.xml" value="0.35260416666666666" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/activity_challenge.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/activity_challenge2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/activity_comentarios.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/activity_duck.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/activity_girasol.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/activity_girasol_challenge.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/activity_hen_challenge.xml" value="0.35260416666666666" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/activity_inicio_app.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/activity_lombriz_challenge.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/activity_maps.xml" value="0.25" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/activity_plants_challenger.xml" value="0.22291666666666668" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/activity_plants_challenger2.xml" value="0.33" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/activity_points.xml" value="0.25" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/activity_puntaje.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/activity_registrar_muestra_microbiologica.xml" value="0.33" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/activity_resultado_captura_image.xml" value="0.25" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/activity_spider.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/activity_splash.xml" value="0.33" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/activity_water_challenger.xml" value="0.33" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/activity_welcome.xml" value="0.33" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/app_bar_main.xml" value="0.33" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/blank_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/bottom_sheet_comentar.xml" value="0.33" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/cardview_comentar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/cardview_comentario.xml" value="0.33" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/cardview_comentarios.xml" value="0.33" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/cardview_full_image.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/cardview_image.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/cardview_insectos.xml" value="0.33" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/cardview_muestra.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/cardview_post.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/circle_skeleton.xml" value="0.22447916666666667" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/comomedir_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/compartir_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/content_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/custom_dialog_moreinfo.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/custom_text_dialog_healtmetric.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/custom_video_dialog.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/fragment_animals.xml" value="0.35462962962962963" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/fragment_bottom_sheet_comentar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/fragment_challenge.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/fragment_dashboard.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/fragment_insectos_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/fragment_map.xml" value="0.25" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/inicio_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/item_skeleton_points.xml" value="0.22" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/laboratorio_digital_fragment.xml" value="0.33" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/lista_fragment.xml" value="0.33" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/nav_header_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/nav_header_main_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/registrar_fragment.xml" value="0.33" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/registraringreso_fragment.xml" value="0.33" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/row_item_insectos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/layout/skeleton_points.xml" value="0.22447916666666667" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/menu/activity_main_drawer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/Agua-Limpia-android-studio/app/src/main/res/menu/main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/drawable/buttom_limpiar_campos.xml" value="0.3828125" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/drawable/custom_botom.xml" value="0.2453125" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/drawable/edittext_graybackground.xml" value="0.3828125" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/drawable/ic_hexagon.xml" value="0.3828125" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/activity_animals.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/activity_begining.xml" value="0.33" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/activity_first_steps.xml" value="0.36102564102564105" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/activity_inicio_app.xml" value="0.36102564102564105" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/activity_points.xml" value="0.33" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/activity_resultado_captura_image.xml" value="0.33" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/activity_splash.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/activity_splashmain.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/activity_welcome.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/app_bar_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/cardview_animals.xml" value="0.5" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/cardview_comentarios.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/cardview_insectos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/cardview_muestra.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/comomedir_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/compartir_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/content_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/custom_text_dialog.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/custom_text_dialog_healtmetric.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/custom_text_dialog_watersafe.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/custom_video_dialog.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/fragment_animals.xml" value="0.36102564102564105" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/fragment_dashboard.xml" value="0.36102564102564105" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/fragment_dialogo_s_u_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/fragment_insectos_list.xml" value="0.25" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/fragment_laboratorio_virtual.xml" value="0.33" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/fragment_map.xml" value="0.33" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/fragment_resultado_laboratorio.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/inicio_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/laboratorio_digital_fragment.xml" value="0.33" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/lista_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/nav_header_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/nav_header_main_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/nosotros_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/rasberry_images_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/registrar_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/registraringreso_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/row_item_insectos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/layout/sugerencias_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/menu/activity_main_drawer.xml" value="0.36102564102564105" />
+        <entry key="..\:/Antony/Desarrollo/Android/ProyectosFinales/Agua-Limpia-android-studio/app/src/main/res/menu/main.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="NullableNotNullManager">
+    <option name="myDefaultNullable" value="android.support.annotation.Nullable" />
+    <option name="myDefaultNotNull" value="android.support.annotation.NonNull" />
+    <option name="myNullables">
+      <value>
+        <list size="14">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.Nullable" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
+          <item index="2" class="java.lang.String" itemvalue="javax.annotation.CheckForNull" />
+          <item index="3" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
+          <item index="4" class="java.lang.String" itemvalue="android.support.annotation.Nullable" />
+          <item index="5" class="java.lang.String" itemvalue="androidx.annotation.Nullable" />
+          <item index="6" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNullable" />
+          <item index="7" class="java.lang.String" itemvalue="com.android.annotations.Nullable" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.Nullable" />
+          <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableDecl" />
+          <item index="10" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableType" />
+          <item index="11" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.Nullable" />
+          <item index="12" class="java.lang.String" itemvalue="io.reactivex.annotations.Nullable" />
+          <item index="13" class="java.lang.String" itemvalue="io.reactivex.rxjava3.annotations.Nullable" />
+        </list>
+      </value>
+    </option>
+    <option name="myNotNulls">
+      <value>
+        <list size="14">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.NotNull" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
+          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
+          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.NonNull" />
+          <item index="4" class="java.lang.String" itemvalue="androidx.annotation.NonNull" />
+          <item index="5" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNonNull" />
+          <item index="6" class="java.lang.String" itemvalue="com.android.annotations.NonNull" />
+          <item index="7" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.NonNull" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullDecl" />
+          <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullType" />
+          <item index="10" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.NonNull" />
+          <item index="11" class="java.lang.String" itemvalue="io.reactivex.annotations.NonNull" />
+          <item index="12" class="java.lang.String" itemvalue="io.reactivex.rxjava3.annotations.NonNull" />
+          <item index="13" class="java.lang.String" itemvalue="lombok.NonNull" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

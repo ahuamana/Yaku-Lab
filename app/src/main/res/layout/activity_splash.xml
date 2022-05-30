@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".modulos.login.views.SplashActivity"
+    android:padding="15dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/poweredby"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="50dp">
+
+
+            <ImageView
+                android:id="@+id/imglogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/logo_yakulab" />
+
+
+            <ProgressBar
+                android:id="@+id/p_Bar2"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="50dp"
+                android:indeterminate="true"
+                android:indeterminateTint="@color/colorPrimaryDarkNew"
+                android:backgroundTintMode="src_atop"
+                android:backgroundTint="@color/red"
+                android:outlineAmbientShadowColor="@color/color_input_text"
+                android:outlineSpotShadowColor="@color/color_input_text"
+                android:layout_marginEnd="50dp"
+                android:max="00"
+                android:minHeight="25dp"
+                android:progress="0"
+                tools:ignore="MissingConstraints" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Bienvenido a yaku-lab" />
+
+
+        </LinearLayout>
+
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/poweredby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:text="Powered by Yaku Lab"
+            android:textColor="@color/color_input_text"
+            app:layout_constraintBottom_toTopOf="@+id/versioncode"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/versioncode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:textColor="@color/color_input_text"
+            android:layout_gravity="center|bottom"
+            android:text="Versión 0.0.0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

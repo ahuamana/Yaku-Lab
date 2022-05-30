@@ -1,0 +1,446 @@
+<resources>
+    <string name="app_name">Yaku Lab</string>
+    <string name="app_terms_conditions">Haciendo click en "registrarse", estoy de acuerdo con los Términos y condiciones de <b>Yaku Lab</b>, y su <b>Política de privacidad</b></string>
+    <string name="forget_pass">¿Has olvidado como ingresar?</string>
+    <string name="otra_conexion">O</string>
+    <string name="terms_conditions_acepto">Al hacer click en el botón "Ingresar" , Aceptas nuestras <b>políticas de privacidad</b> y <b>términos de condición</b>.</string>
+
+    <string name="doesnt_have_account">¿No tienes una cuenta?</string>
+    <string name="create_account">Registrate aquí</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_anacroneuria">Es este reto tendrás que buscar este insecto debajo de las piedras, y lograr capturar una imagen completa</string>
+
+    <string name="text_animal_mariposa">Es este reto tendrás que lograr <b>capturar los ojos, alas y cabeza</b> de una mariposa </string>
+    <string name="text_animal_araña">Es este reto tendrás que lograr <b>capturar las patas de una araña</b></string>
+    <string name="text_animal_lombriz">Es este reto tendrás que lograr <b>capturar el cuerpo de una lombriz</b></string>
+
+    <string name="text_flower_girasol">Es este reto tendrás que lograr <b>capturar los pistilos de un girasol</b></string>
+    <string name="text_flower_margarita">Es este reto tendrás que lograr capturar los pistilos de una flor</string>
+    <string name="text_flower_lirio">Es este reto tendrás que lograr capturar los pistilos de una flor</string>
+
+    <string name="text_animal_cat">Es este reto tendrás que lograr <b>capturar las almohadillas</b> del gato</string>
+    <string name="text_animal_hen">Es este reto tendrás que lograr <b>capturar la crezta</b> de una gallina</string>
+    <string name="text_animal_duck">Es este reto tendrás que lograr <b>capturar las patas</b> de una gallina</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_laboratorio_virtual">LABORATORIO VIRTUAL</string>
+    <string name="title_animals">ANIMALES</string>
+    <string name="title_desafios">DESAFIOS</string>
+    <string name="subtitle_experiencias">Experiencias para ti</string>
+    <string name="congratulations">FELICIDADES!!</string>
+
+    <string name="descripcion_mariposa1"><b>Las alas de las mariposas son transparentes pero percibimos sus llamativos y distintos colores gracias a que su estructura está protegida con escamas</b>
+        muy finas que reflejan continuamente la luz.</string>
+    <string name="descripcion_mariposa2"><b>Sabías que, las mariposas</b>
+        se alimentan de líquidos de las plantas, con su especie de lengua absorben el néctar de las flores y el agua interna de las plantas. </string>
+    <string name="descripcion_mariposa3">Pueden volar desde <b>8 a 20 km</b>  por hora.</string>
+
+    <string name="descripcion_girasol1"><b>El girasol gigante</b> americano es uno de los girasoles más altos y sus caras pueden alcanzar las 12 pulgadas de ancho.</string>
+    <string name="descripcion_girasol2">Para producir un kilogramo de miel es necesario que una abeja visite unos cuatro millones de flores. Esto es recorrer una distancia equivalente a dar una vuelta al mundo cuatro veces</string>
+
+    <string name="descripcion_spider1">A pesar de que la mayor parte de arañas se alimentan de insectos; existe solo una araña que es completamente <b>herbívora</b></string>
+    <string name="descripcion_spider2">La telaraña es más resistente que el acero cuando estos tienen el mismo grosor.</string>
+
+    <string name="descripcion_lombriz1">Las lombrices de tierra no tienen pulmones, de manera que respiran a través de su piel. Absorben los fluidos y el aire, siempre y cuando su piel esté húmeda.</string>
+    <string name="descripcion_lombriz2">Las lombrices juegan un papel fundamental en el ecosistema porque mejoran las propiedades tanto físicas y químicas de los suelos, al tiempo que estimulan la actividad bacteriana</string>
+
+    <string name="descripcion_cat1">Los maullidos no son un lenguaje innato para gatos: ¡los desarrollaron para comunicarse con los humanos!.</string>
+    <string name="descripcion_cat2">La audición del gato promedio es al menos cinco veces más aguda que la de un adulto humano.</string>
+
+    <string name="descripcion_hen1">Los maullidos no son un lenguaje innato para gatos: ¡los desarrollaron para comunicarse con los humanos!.</string>
+    <string name="descripcion_hen2">La audición del gato promedio es al menos cinco veces más aguda que la de un adulto humano.</string>
+
+    <string name="descripcion_duck1">Los patos tienen unas patas palmeadas diseñadas para nadar, que actúan como remos.</string>
+    <string name="descripcion_duck2">El color marrón de las hembras les permite camuflarse mucho mejor, lo que ayuda a proteger a las crías antes y después de nacer.</string>
+
+
+    <string name="steps_healthmetric_step1">Simplemente llene el frasco con agua hasta el hombro, enrosque la tapa y agítelo durante 20 segundos.</string>
+    <string name="steps_healthmetric_step2">Coloque el frasco fuera de la luz solar directa a una temperatura mínima de 70 ° F y déjelo por 48 horas.</string>
+    <string name="steps_healthmetric_step3">Si el líquido permanece morado, la prueba es negativa. Si se vuelve amarillo, significa que contiene altos niveles de bacterias.</string>
+
+    <string name="steps_watersafe_step1">Saque el vial de la prueba de bacterias y colóquelo en posición vertical sobre una superficie plana.</string>
+    <string name="steps_watersafe_step2">Recoja una muestra de agua o abra el grifo a un chorro muy lento.</string>
+    <string name="steps_watersafe_step3">Gire con cuidado la tapa y llene el vial hasta 1/2 pulgada por debajo de la parte superior (hasta la línea de 5 ml). NO LLENE DEMASIADO y NO DERRAME el polvo de crecimiento bacteriano en el vial.</string>
+    <string name="steps_watersafe_step4">Vuelva a colocar la tapa y gírela firmemente. Agite el vial vigorosamente durante 20 segundos.</string>
+    <string name="steps_watersafe_step5">Coloque el vial tapado en posición vertical en un área cálida (70-90 F) donde no se pueda tocar durante 48 horas.</string>
+    <string name="steps_watersafe_step6">Después de 48 hrs., Observe el color del líquido sin abrir el vial: <br />
+        Color púrpura: resultado negativo (no se detectaron bacterias)<br />
+        Color amarillo: Resultado positivo (es muy probable que potencialmente se detectaron bacterias dañinas)</string>
+
+
+    <string name="datoconcentracion">Las muestras de agua se filtran a través de una unidad de filtro cerrada Millipore 0.22 PES express donde las bacterias se recolectan en la superficie de la membrana. Esto hace que nuestra tecnología tenga una ventaja única sobre otras, ya que el filtrado elimina las posibles interferencias de fondo y la celda cerrada reduce la manipulación de muestras.</string>
+    <string name="datoreaccion">La unidad de filtrado está saturada con un excedente de sustrato enzimático. \nEl sustrato de la enzima reacciona con una enzima bacteriana natural y se libera un compuesto fluorescente. El tiempo de reacción es de aproximadamente 15 a 30 minutos según la aplicación.</string>
+    <string name="datomedicion">La cantidad de fluorescencia se mide utilizando un fluorómetro de mano que funciona con pilas. Cuanto más fluorescencia se produzca, más bacterias habrá en la muestra. \nEl resultado se informa como un valor Bactiquant (BQV). \nEl BQV se define como la fluorescencia generada en una muestra de agua de 250 ml en 30 minutos a 23 o C (73,4 o F). Aunque el volumen de la muestra y los tiempos de reacción se pueden modificar para cumplir con una aplicación específica, los resultados analíticos siempre se ajustan a las condiciones estándar.</string>
+    <string name="title_activity_inicio_app">inicioApp</string>
+    <string name="default_notification_channel_id">"fcm_default_channel"</string>
+
+
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+
+    <array name="resultadoObtenido">
+        <item>Seleccione resultado</item>
+        <item>Positivo</item>
+        <item>Negativo</item>
+    </array>
+
+    <array name="departamentos">
+        <item>Seleccione</item>
+        <item>Veracruz</item>
+        <item>Amazonas</item>
+        <item>Ancash</item>
+        <item>Apurimac</item>
+        <item>Arequipa</item>
+        <item>Ayacucho</item>
+        <item>Cajamarca</item>
+        <item>Callao</item>
+        <item>Cusco</item>
+        <item>Huancavelica</item>
+        <item>Huanuco</item>
+        <item>Ica</item>
+        <item>Junín</item>
+        <item>La Libertad</item>
+        <item>Lambayeque</item>
+        <item>Lima</item>
+        <item>Loreto</item>
+        <item>Madre de Dios</item>
+        <item>Moquegua</item>
+        <item>Pasco</item>
+        <item>Piura</item>
+        <item>Puno</item>
+        <item>San Martín</item>
+        <item>Tacna</item>
+        <item>Tumbes</item>
+        <item>Ucayali</item>
+    </array>
+
+    <!--    Provincias -->
+
+    <array name="Seleccione">
+        <item>Seleccione</item>
+    </array>
+
+    <array name="provinciasVeracruz">
+        <item>Seleccione</item>
+        <item>Acajeta</item>
+        <item>Benito Juarez</item>
+        <item>Cerro Azul</item>
+        <item>Espinal</item>
+        <item>Huatusco</item>
+
+    </array>
+
+    <array name="provinciasAmazonas">
+        <item>Seleccione</item>
+        <item>Condorcanqui</item>
+        <item>Bagua</item>
+        <item>Bongará</item>
+        <item>Utcubamba</item>
+        <item>Luya</item>
+        <item>Rodríguez de Mendoza</item>
+        <item>Chachapoyas</item>
+    </array>
+
+    <array name="provinciasAncash">
+        <item>Seleccione</item>
+        <item>Aija</item>
+        <item>Antonio Raimondi</item>
+        <item>Asunción</item>
+        <item>Bolognesi</item>
+        <item>Carhuaz</item>
+        <item>Carlos Fermín Fitzcarrald</item>
+        <item>Casma</item>
+        <item>Corongo</item>
+        <item>Huaraz</item>
+        <item>Huari</item>
+        <item>Huarmey</item>
+        <item>Huaylas</item>
+        <item>Mariscal Luzuriaga</item>
+        <item>Ocros</item>
+        <item>Pallasca</item>
+        <item>Pomabamba</item>
+        <item>Recuay</item>
+        <item>Santa</item>
+        <item>Sihuas</item>
+        <item>Yungay</item>
+    </array>
+
+    <array name="provinciasApurimac">
+        <item>Seleccione</item>
+        <item>Andahuaylas</item>
+        <item>Abancay</item>
+        <item>Aymares</item>
+        <item>Antabamba</item>
+        <item>Chincheros</item>
+        <item>Grau</item>
+        <item>Cotabambas</item>
+    </array>
+
+    <array name="provinciasArequipa">
+        <item>Seleccione</item>
+        <item>Arequipa</item>
+        <item>Camaná</item>
+        <item>Caravelí</item>
+        <item>Castilla</item>
+        <item>Caylloma</item>
+        <item>Condesuyos</item>
+        <item>Islay</item>
+        <item>La Unión</item>
+    </array>
+
+    <array name="provinciasAyacucho">
+        <item>Seleccione</item>
+        <item>Parinacochas</item>
+        <item>Páucar del Sara Sara</item>
+        <item>Cangallo</item>
+        <item>Huamanga</item>
+        <item>Huanca Sancos</item>
+        <item>La Mar</item>
+        <item>Lucanas</item>
+        <item>Sucre</item>
+    </array>
+
+    <array name="provinciasCajamarca">
+        <item>Seleccione</item>
+        <item>Cajamarca</item>
+        <item>Cajabamba</item>
+        <item>Celendin</item>
+        <item>Contumaza</item>
+        <item>Cutervo</item>
+        <item>Chota</item>
+        <item>Hualgayoc</item>
+        <item>Jaen</item>
+        <item>Santa Cruz</item>
+        <item>San Miguel</item>
+        <item>San Ignacio</item>
+        <item>San Marcos</item>
+        <item>San Pablo</item>
+    </array>
+
+    <array name="provinciasCallao">
+        <item>Seleccione</item>
+        <item>Callao</item>
+
+    </array>
+
+    <array name="provinciasCusco">
+        <item>Seleccione</item>
+        <item>Acomayo</item>
+        <item>Anta</item>
+        <item>Calca</item>
+        <item>Canas</item>
+        <item>Canchis</item>
+        <item>Cuzco</item>
+        <item>Chumbivilcas</item>
+        <item>Espinar</item>
+        <item>La Convención</item>
+        <item>Paruro</item>
+        <item>Paucartambo</item>
+        <item>Quispicanchi</item>
+        <item>Urubamba</item>
+    </array>
+
+    <array name="provinciasHuancavelica">
+        <item>Seleccione</item>
+        <item>Acobamba</item>
+        <item>Angaraes</item>
+        <item>Castrovirreyna</item>
+        <item>Churcampa</item>
+        <item>Huancavelica</item>
+        <item>Huaytará</item>
+        <item>Tayacaja</item>
+    </array>
+
+    <array name="provinciasHuanuco">
+        <item>Seleccione</item>
+        <item>Ambo</item>
+        <item>Dos de Mayo</item>
+        <item>Huacaybamba</item>
+        <item>Huamalíes</item>
+        <item>Huánuco</item>
+        <item>Lauricocha</item>
+        <item>Leoncio Prado</item>
+        <item>Marañón</item>
+        <item>Pachitea</item>
+        <item>Puerto Inca</item>
+        <item>Yarowilca</item>
+    </array>
+
+    <array name="provinciasIca">
+        <item>Seleccione</item>
+        <item>Chincha</item>
+        <item>Ica</item>
+        <item>Nasca</item>
+        <item>Palpa</item>
+        <item>Pisco</item>
+    </array>
+
+    <array name="provinciasJunín">
+        <item>Seleccione</item>
+        <item>Chanchamayo</item>
+        <item>Chupaca</item>
+        <item>Concepción</item>
+        <item>Huancayo</item>
+        <item>Jauja</item>
+        <item>Junín</item>
+        <item>Satipo</item>
+        <item>Tarma</item>
+        <item>Yauli</item>
+    </array>
+
+
+    <array name="provinciasLibertad">
+        <item>Seleccione</item>
+        <item>Ascope</item>
+        <item>Bolívar</item>
+        <item>Chepén</item>
+        <item>Gran Chimú</item>
+        <item>Julcán</item>
+        <item>Otuzco</item>
+        <item>Pacasmayo</item>
+        <item>Pataz</item>
+        <item>Sánchez Carrión</item>
+        <item>Santiago de Chuco</item>
+        <item>Trujillo</item>
+        <item>Virú</item>
+    </array>
+
+    <array name="provinciasLambayeque">
+        <item>Seleccione</item>
+        <item>Chiclayo</item>
+        <item>Ferreñafe</item>
+        <item>Lambayeque</item>
+    </array>
+
+
+    <array name="provinciasLima">
+        <item>Seleccione</item>
+        <item>Barranca</item>
+        <item>Cajatambo</item>
+        <item>Canta</item>
+        <item>Cañete</item>
+        <item>Huaral</item>
+        <item>Huarochirí</item>
+        <item>Huaura</item>
+        <item>Lima</item>
+        <item>Oyón</item>
+        <item>Yauyos</item>
+    </array>
+
+
+    <array name="provinciasLoreto">
+        <item>Seleccione</item>
+        <item>Alto Amazonas</item>
+        <item>Datem del Marañón</item>
+        <item>Loreto</item>
+        <item>Mariscal Ramón Castilla</item>
+        <item>Maynas</item>
+        <item>Putumayo</item>
+        <item>Requena</item>
+        <item>Ucayali</item>
+    </array>
+
+    <array name="provinciasMadreDeDios">
+        <item>Seleccione</item>
+        <item>Manu</item>
+        <item>Tahuamanu</item>
+        <item>Tambopata</item>
+    </array>
+
+    <array name="provinciasMoquegua">
+        <item>Seleccione</item>
+        <item>General Sánchez Cerro Omate</item>
+        <item>Ilo</item>
+        <item>Mariscal Nieto</item>
+    </array>
+
+    <array name="provinciasPasco">
+        <item>Seleccione</item>
+        <item>Daniel Alcides Carrión</item>
+        <item>Oxapampa</item>
+        <item>Pasco</item>
+    </array>
+
+    <array name="provinciasPiura">
+        <item>Seleccione</item>
+        <item>Ayabaca</item>
+        <item>Huancabamba</item>
+        <item>Morropón</item>
+        <item>Paita</item>
+        <item>Piura</item>
+        <item>Sechura</item>
+        <item>Sullana</item>
+        <item>Talara</item>
+    </array>
+
+    <array name="provinciasPuno">
+        <item>Seleccione</item>
+        <item>Azángaro</item>
+        <item>Carabaya</item>
+        <item>Chucuito</item>
+        <item>El Collao</item>
+        <item>Huancané</item>
+        <item>Lampa</item>
+        <item>Melgar</item>
+        <item>Moho</item>
+        <item>Puno</item>
+        <item>San Antonio de Putina</item>
+        <item>San Román</item>
+        <item>Sandia</item>
+        <item>Yunguyo</item>
+    </array>
+
+    <array name="provinciasSanMartin">
+        <item>Seleccione</item>
+        <item>Bellavista</item>
+        <item>El Dorado</item>
+        <item>Huallaga</item>
+        <item>Lamas</item>
+        <item>Mariscal Cáceres</item>
+        <item>Moyobamba</item>
+        <item>Picota</item>
+        <item>Rioja</item>
+        <item>San Martín</item>
+        <item>Tocache</item>
+    </array>
+
+    <array name="provinciasTacna">
+        <item>Seleccione</item>
+        <item>Candarave</item>
+        <item>Jorge Basadre</item>
+        <item>Tacna</item>
+        <item>Tarata</item>
+    </array>
+
+    <array name="provinciasTumbes">
+        <item>Seleccione</item>
+        <item>Contralmirante Villar</item>
+        <item>Tumbes</item>
+        <item>Zarumilla</item>
+    </array>
+
+    <array name="provinciasUcayali">
+        <item>Seleccione</item>
+        <item>Atalaya</item>
+        <item>Coronel Portillo</item>
+        <item>Padre Abad</item>
+        <item>Purús</item>
+    </array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <!--    Variables de entorno-->
+
+</resources>

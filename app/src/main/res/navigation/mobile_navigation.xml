@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_laboratorio">
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="edu.aha.agualimpiafinal.fragments.InicioFragment"
+        android:label="Como vamos"
+        tools:layout="@layout/inicio_fragment" />
+
+    <fragment
+        android:id="@+id/nav_registrar"
+        android:name="edu.aha.agualimpiafinal.fragments.RegistrarFragment"
+        android:label=""
+        tools:layout="@layout/registrar_fragment" />
+
+    <fragment
+        android:id="@+id/nav_lista"
+        android:name="edu.aha.agualimpiafinal.fragments.ListaFragment"
+        android:label=""
+        tools:layout="@layout/lista_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_comomedir"
+        android:name="edu.aha.agualimpiafinal.fragments.ComoMedirFragment"
+        android:label=""
+        tools:layout="@layout/comomedir_fragment" />
+
+    <fragment
+        android:id="@+id/nav_nosotros"
+        android:name="edu.aha.agualimpiafinal.fragments.NosotrosFragment"
+        android:label=""
+        tools:layout="@layout/nosotros_fragment" />
+
+    <fragment
+        android:id="@+id/nav_compartir"
+        android:name="edu.aha.agualimpiafinal.fragments.CompartirFragment"
+        android:label=""
+        tools:layout="@layout/compartir_fragment"
+        ></fragment>
+
+    <fragment
+        android:id="@+id/nav_sugerencias"
+        android:name="edu.aha.agualimpiafinal.fragments.BlankFragment"
+        android:label=""
+        tools:layout="@layout/blank_fragment"
+        ></fragment>
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="edu.aha.agualimpiafinal.fragments.DashboardFragment"
+        android:label=""
+        tools:layout="@layout/fragment_dashboard"
+        ></fragment>
+
+    <fragment
+        android:id="@+id/nav_laboratorio"
+        android:name="edu.aha.agualimpiafinal.fragments.LaboratorioDigital"
+        android:label="Pagos"
+        tools:layout="@layout/laboratorio_digital_fragment"
+        ></fragment>
+
+
+
+</navigation>

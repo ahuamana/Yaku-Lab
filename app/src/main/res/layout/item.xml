@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3DFDF"
+    android:orientation="vertical">
+
+    <com.github.captain_miao.optroundcardview.OptRoundCardView
+
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:optRoundCardBackgroundColor="#FFFFFF"
+        app:optRoundCardCornerRadius="30dp"
+        app:optRoundCardLeftBottomCorner="true"
+        app:optRoundCardLeftTopCorner="true"
+        app:optRoundCardRightBottomCorner="true"
+        app:optRoundCardRightTopCorner="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="-41dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/contenedorConstraint1"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtsaltar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Saltar"
+                    android:textColor="#504C4C"
+                    android:textSize="20sp"
+                    style="@style/letra_editText"
+                    app:layout_constraintBottom_toTopOf="@+id/VPimgLogo"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.88"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.634"></TextView>
+
+                <ImageView
+                    android:id="@+id/VPimgLogo"
+                    android:layout_width="250dp"
+                    android:layout_height="278dp"
+                    android:layout_marginTop="84dp"
+                    android:src="@drawable/background_saveinfo"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.495"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+                <TextView
+                    android:id="@+id/txtslider1"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/botom_inicio"
+                    app:layout_constraintBottom_toTopOf="@+id/txtnumber"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.429"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/VPimgLogo"
+                    app:layout_constraintVertical_bias="0.486"></TextView>
+
+                <TextView
+                    android:id="@+id/txtslider2"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/circle_unselected"
+                    app:layout_constraintBottom_toTopOf="@+id/txtnumber"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/VPimgLogo"
+                    app:layout_constraintVertical_bias="0.486"></TextView>
+
+                <TextView
+                    android:id="@+id/txtslider3"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/circle_unselected"
+                    app:layout_constraintBottom_toTopOf="@+id/txtnumber"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.568"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/VPimgLogo"
+                    app:layout_constraintVertical_bias="0.486"></TextView>
+
+
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.7" />
+
+
+                <TextView
+                    android:id="@+id/txtnumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/botom_inicio"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    style="@style/letra_editText"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.507"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/guideline"
+                    app:layout_constraintVertical_bias="0.525"></TextView>
+
+                <TextView
+                    android:id="@+id/txtdescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="20dp"
+                    android:gravity="center"
+                    android:text="Toma la muestra"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="18sp"
+                    style="@style/letra_editText"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.496"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtnumber"></TextView>
+
+                <Button
+                    android:id="@+id/btnempezar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/buttom_empezar"
+                    android:text="Empezar"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    style="@style/letra_editText"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtdescription"
+                    app:layout_constraintVertical_bias="0.686"></Button>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </ScrollView>
+
+    </com.github.captain_miao.optroundcardview.OptRoundCardView>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

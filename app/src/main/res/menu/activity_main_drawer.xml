@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_laboratorio"
+            android:icon="@drawable/lab_microscope"
+            android:title="Laboratorio Virtual" />
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Estadisticas de muestras" />
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_maps"
+            android:title="¿Como vamos?" />
+        <item
+            android:id="@+id/nav_registrar"
+            android:icon="@drawable/ic_plus"
+            android:title="Envíanos tus muestras" />
+        <item
+            android:id="@+id/nav_lista"
+            android:icon="@drawable/ic_listar"
+            android:title="Otros enviaron" />
+
+
+
+    </group>
+
+    <item android:title="Información">
+        <menu>
+            <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/nav_comomedir"
+                android:icon="@drawable/ic_comomedir"
+                android:title="¿Cómo Medir?" />
+
+            <item
+                android:id="@+id/nav_nosotros"
+                android:icon="@drawable/ic_about"
+                android:title="Nosotros" />
+
+            <item
+                android:id="@+id/nav_sugerencias"
+                android:icon="@drawable/ic_comment"
+                android:title="Sugerencias" />
+
+            </group>
+
+        </menu>
+
+    </item>
+
+
+    <item android:title="Extras">
+        <menu>
+            <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/nav_compartir"
+                android:icon="@drawable/ic_share"
+                android:title="Compartir">
+
+            </item>
+            </group>
+
+        </menu>
+
+    </item>
+
+
+
+</menu>

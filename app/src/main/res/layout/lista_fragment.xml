@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.ListaFragment"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.SearchView
+        android:layout_marginTop="40dp"
+        android:id="@+id/Isearch"
+        android:visibility="gone"
+        app:queryHint="Buscar por departamento"
+        app:iconifiedByDefault="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:actionViewClass="android.support.v7.widget.SearchView"
+        ></androidx.appcompat.widget.SearchView>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="#daf3ed"
+        android:background="@drawable/custom_button_nocolor"
+        android:layout_height="wrap_content">
+
+        <com.mancj.materialsearchbar.MaterialSearchBar
+            android:id="@+id/searchItem"
+            android:layout_width="wrap_content"
+            app:mt_searchBarColor="#daf3ed"
+            app:mt_searchIconTint="@color/colorGrayImageCameraBackground"
+            app:mt_textColor="@color/colorBlack"
+            app:mt_hintColor="@color/colorBlack"
+            app:mt_placeholderColor="@color/colorGrayImageCameraBackground"
+            app:mt_backIconTint="@color/colorBlack"
+            app:mt_backIconUseTint="true"
+            android:layout_marginEnd="25dp"
+            android:layout_marginStart="25dp"
+            app:mt_menuIconTint="@color/colorBlack"
+            app:mt_hint="Departamento &amp; provinvia"
+            app:mt_placeholder="Yaku Limpia"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.SearchView
+            android:layout_marginStart="40dp"
+            android:id="@+id/IsearchProvincia"
+            app:queryHint="Provincia"
+            app:iconifiedByDefault="false"
+            app:searchIcon="@null"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:actionViewClass="android.support.v7.widget.SearchView"
+            ></androidx.appcompat.widget.SearchView>
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/IsearchAuthorAlias"
+            app:queryHint="Author Alias"
+            app:iconifiedByDefault="false"
+            app:searchIcon="@null"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:actionViewClass="android.support.v7.widget.SearchView"
+            ></androidx.appcompat.widget.SearchView>
+
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/idRecycler"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

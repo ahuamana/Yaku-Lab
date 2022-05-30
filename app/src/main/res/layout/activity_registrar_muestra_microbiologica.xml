@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contenedorRegistroMicrobiologico"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activities.RegistrarMuestraMicrobiologicaActivity"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollHorizontally="true">
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/imageViewBack"
+                    android:layout_width="25dp"
+                    android:src="@drawable/ic_back_arrow_black"
+                    android:layout_height="25dp"/>
+
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/primarystatusbar"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:scrollHorizontally="true"
+                    android:text="Completa con los datos de la muestra"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/RIedtLatitud"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="2"
+                        android:background="@drawable/edittext_graybackground"
+                        android:enabled="false"
+                        android:hint="Latitud"
+                        style="@style/letra_editText"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="20dp"
+                        android:scrollHorizontally="true"
+                        android:singleLine="true"
+                        android:textColor="@color/primaryTextColor"
+                        android:textSize="15dp"></EditText>
+
+                    <EditText
+                        android:id="@+id/RIedtLongitud"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="2"
+                        android:background="@drawable/edittext_graybackground"
+                        android:enabled="false"
+                        android:hint="Longitud"
+                        style="@style/letra_editText"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="20dp"
+                        android:scrollHorizontally="true"
+                        android:singleLine="true"
+                        android:textColor="@color/primaryTextColor"
+                        android:textSize="15dp"></EditText>
+
+                    <ImageButton
+                        android:id="@+id/RIbtngeolocalizacion"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittext_graybackground"
+                        android:src="@drawable/ic_location"></ImageButton>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:id="@+id/RIedtDepartamento"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="2"
+                        android:background="@drawable/edittext_graybackground"
+                        android:digits="abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ"
+                        android:entries="@array/departamentos"
+                        android:hint="Departamento"
+
+                        android:paddingStart="20dp"
+                        android:paddingEnd="20dp"
+                        android:scrollHorizontally="true"
+                        android:singleLine="true"
+                        android:textSize="15dp"></Spinner>
+
+                    <Spinner
+                        android:id="@+id/RIedtProvincia"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="2"
+                        android:background="@drawable/edittext_graybackground"
+                        android:digits="abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ"
+                        android:entries="@array/Seleccione"
+                        android:hint="Provincia"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="20dp"
+                        android:scrollHorizontally="true"
+                        android:singleLine="true"
+                        android:textSize="15dp"></Spinner>
+
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/RIedtcantidadmuestra"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edittext_graybackground"
+                    android:digits="1234567890"
+                    android:hint="Cantidad de Muestra (ml)"
+                    android:inputType="number"
+                    style="@style/letra_editText"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:textSize="15dp"></EditText>
+
+                <Spinner
+                    android:id="@+id/RIedtBQV"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/edittext_graybackground"
+                    android:entries="@array/resultadoObtenido"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:textColor="#393939"></Spinner>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="30dp">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/RIimgFoto"
+                            android:src="@drawable/ic_image_camera"
+                            app:civ_circle_background_color="#9E9E9E"
+                            app:civ_border_width="80px"
+                            app:civ_border_color="#9E9E9E"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            />
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/fabSelectImage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_photo"
+                            android:backgroundTint="@color/greenPrimary"
+                            android:layout_gravity="bottom|center"
+                            android:layout_marginLeft="50dp"
+                            app:elevation="0dp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/RIbtnRegistrar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+
+                    android:background="@drawable/buttom_registrarmuestra"
+                    android:backgroundTint="@color/colorGray"
+                    android:text="REGISTRAR"
+                    android:textColor="@color/white"></Button>
+
+                <Button
+                    android:id="@+id/RIbtnLimpiar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/buttom_limpiar_campos"
+                    android:text="LIMPIAR"
+                    android:textColor="@color/white"></Button>
+
+                <Button
+                    android:id="@+id/button_verMuestra"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/buttom_limpiar_campos"
+                    android:backgroundTint="#FE8F8F"
+                    android:text="IR A MI MUESTRA"
+                    android:visibility="gone"
+                    android:textColor="@color/white"></Button>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+    <FrameLayout
+        android:id="@+id/contenededorParentFragment"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/linearlayoutContenedor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imgBack"
+            android:layout_width="25dp"
+            android:src="@drawable/ic_back_arrow_black"
+            android:layout_height="25dp"/>
+
+
+    </FrameLayout>
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

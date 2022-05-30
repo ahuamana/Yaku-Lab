@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardView_insectos"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardElevation="5dp"
+    android:backgroundTint="@color/colorAccent"
+    app:cardCornerRadius="5dp"
+    app:contentPaddingTop="13dp"
+    app:contentPaddingBottom="10dp"
+    app:contentPaddingRight="10dp"
+    app:contentPaddingLeft="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/imageView_row_insectos"
+            android:layout_width="wrap_content"
+            app:riv_corner_radius="3dp"
+            android:src="@drawable/background_saveinfo"
+            android:layout_height="100dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textView_name_insectos"
+            android:layout_width="match_parent"
+            android:text="Hola mundo"
+            android:textColor="@color/primarystatusbar"
+            android:layout_marginTop="5dp"
+            android:textSize="14dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

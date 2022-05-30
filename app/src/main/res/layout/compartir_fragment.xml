@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="5dp"
+    android:elevation="10dp"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    tools:context=".fragments.CompartirFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/messageemail512"
+                android:layout_gravity="center"
+                ></ImageView>
+
+            <TextView
+                android:padding="40dp"
+                android:autoSizeTextType="uniform"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoSizeMinTextSize="14sp"
+                android:autoSizeMaxTextSize="100sp"
+                android:autoSizeStepGranularity="2sp"
+                android:gravity="center"
+                style="@style/letra_editText"
+                android:layout_gravity="center"
+                android:text="Gracias por compartir nuestro aplicativo! "
+                android:textSize="14sp"
+                android:textColor="#7C7777"></TextView>
+
+            <LinearLayout
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/COMPtvcompartir"
+                    android:padding="8dp"
+                    android:layout_weight="6"
+                    android:enabled="false"
+                    android:textSize="14sp"
+                    android:layout_height="wrap_content"
+                    android:text="https://github.com/ahuamana/Agua-Limpia-android-studio"
+                    android:singleLine="true"
+                    android:textColor="@color/primarystatusbar"
+                    android:background="@drawable/background_share_text"
+                    android:layout_width="0dp"></EditText>
+
+
+                <ImageButton
+                    android:id="@+id/COMPbtnlink"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_image_share"
+                    android:layout_height="35dp"
+                    android:src="@drawable/linkshare12dp"
+                    android:layout_width="0dp"></ImageButton>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</androidx.cardview.widget.CardView>

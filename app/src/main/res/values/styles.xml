@@ -1,0 +1,71 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorSecondaryYaku</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryYaku</item>
+        <item name="colorAccent">@color/colorPrimaryDarkNew</item>
+    </style>
+
+    <!--estilo usado en el mayor parte de la app -->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimaryYaku</item>
+        <item name="colorSecondary">@color/colorSecondaryYaku</item>
+        <item name="colorAccent">@color/colorAcentYaku</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.inicioSuggetions">
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="Theme_Dialog" parent="android:Theme.Dialog">
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+    </style>
+
+    <style name="letra_editText">
+        <item name="android:fontFamily">@font/neue_haas_display_light</item>
+    </style>
+
+    <style name="letra_titulos">
+        <item name="android:fontFamily">@font/neuegrot_text_round_bold</item>
+    </style>
+
+
+    <style name="MyToolbar_TextAppearance">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/lightblue</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize10Percent" parent="">
+        <item name="cornerSize">10%</item>
+    </style>
+
+    <style name="AppThemeNuevoOnlyStatusBarFull" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="colorPrimary">@color/lightblue</item>
+        <item name="colorPrimaryDark">@color/primarystatusbar</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    
+    <style name="CustomTextField" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxStrokeWidth">1.5dp</item>
+        <item name="errorIconDrawable">@null</item>
+        <item name="boxBackgroundColor">@color/color_input_box</item>
+        <item name="android:textColor">@color/color_input_text</item>
+
+    </style>
+
+
+
+</resources>

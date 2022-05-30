@@ -1,0 +1,255 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activities.ResultadoCapturaImageActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/back_image"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:paddingStart="5dp"
+                android:backgroundTint="@color/greenPrimary"
+                android:background="@drawable/ic_back_white"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:src="@drawable/star"
+                        android:layout_marginTop="50dp"/>
+
+
+                </FrameLayout>
+
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/congratulations"
+                    android:textColor="@color/primarystatusbar"
+                    android:textSize="20dp"
+                    android:contentDescription="Sube una foto"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="bottom|center"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ganaste"
+                        android:textColor="#FF2442"
+                        android:textSize="20dp"
+                        android:contentDescription="Sube una foto"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="bottom|center"/>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="30dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        app:cardCornerRadius="5dp"
+                        android:backgroundTint="@color/greenPrimary"
+                        android:layout_height="30dp">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/points"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            android:gravity="center"
+                            android:layout_gravity="center"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="punto"
+                        android:textColor="#FF2442"
+                        android:textSize="20dp"
+                        android:contentDescription="Sube una foto"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="bottom|center"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="30dp">
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mariposa"/>
+
+                        <com.makeramen.roundedimageview.RoundedImageView
+                            android:id="@+id/roundedImageViewSustantivo"
+                            android:layout_width="wrap_content"
+                            app:riv_corner_radius="5dp"
+                            android:layout_marginTop="5dp"
+                            android:adjustViewBounds="true"
+                            android:layout_height="200dp"
+                            android:textColor="@color/colorBlack"
+                            android:src="@drawable/real_mariposa_monarca"/>
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorGray"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="30dp">
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Descripcion"/>
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/textViewDescriptionSustantivo"
+                            android:layout_width="wrap_content"
+                            android:layout_marginEnd="20dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/descripcion_mariposa1"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="15dp"/>
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorGray"
+                    android:layout_marginTop="10dp"
+                    android:visibility="gone"
+                    android:layout_marginLeft="15dp"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="30dp">
+
+
+
+
+
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/btnRegistrarProductDetails"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:enabled="true"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:backgroundTint="@color/primaryColor"
+                    android:backgroundTint="@color/greenPrimary"
+                    android:background="@drawable/custom_botom"
+                    android:text="REGISTRAR"/>
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_points"
+        android:layout_width="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/premio_icon"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_home"
+        android:layout_width="wrap_content"
+        android:layout_gravity="top|end"
+        android:src="@drawable/ic_home"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_height="wrap_content"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="5dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="13dp"
+        app:contentPaddingTop="13dp"
+        app:contentPaddingRight="10dp"
+        app:contentPaddingLeft="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="26dp"
+                    android:textSize="10dp"
+                    android:textColor="#838787"
+                    android:text="Author"/>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/name"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="wrap_content"
+                    android:text="Escarabajo"
+                    android:layout_gravity="center"
+                    android:textSize="10dp"
+                    android:textColor="@color/primarystatusbar"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"/>
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/roundedImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    app:riv_corner_radius="3dp"
+                    android:scaleType="fitCenter"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="15dp"
+                    android:src="@drawable/image_test"/>
+
+
+            </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+

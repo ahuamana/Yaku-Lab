@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".modulos.login.views.WelcomeActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.github.captain_miao.optroundcardview.OptRoundCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:optRoundCardCornerRadius="40dp"
+                app:optRoundCardBackgroundColor="@color/greeLight"
+                app:optRoundCardLeftTopCorner="false"
+                app:optRoundCardRightTopCorner="false"
+                android:layout_marginBottom="20dp"
+                app:optRoundCardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/txtsaltarFirstSteps"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Saltar"
+                        android:layout_gravity="end"
+                        android:textColor="#999999"
+                        android:textSize="20sp"
+                        style="@style/letra_editText"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/primarystatusbar"
+                        android:fontFamily="@font/neuegrot_text_round_bold"
+                        android:scrollHorizontally="true"
+                        android:text="BIENVENIDO"
+                        android:textSize="25dp"
+                        android:layout_marginTop="10dp"></TextView>
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="wrap_content"
+                        app:civ_border_color="@color/colorAccent"
+                        app:civ_border_width="2dp"
+                        android:layout_height="400dp"
+                        android:src="@drawable/three_steps" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="wrap_content"
+                        android:textSize="20dp"
+                        android:text="Conoce todo acerca de los retos propuestos"
+                        android:textColor="#000"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        style="@style/letra_editText"
+                        android:layout_height="wrap_content"/>
+
+
+
+                </LinearLayout>
+
+            </com.github.captain_miao.optroundcardview.OptRoundCardView>
+
+            <Button
+                android:id="@+id/btnIniciarFirstSteps"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_gravity="bottom|center"
+                android:text="INICIAR"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/buttom_empezar"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

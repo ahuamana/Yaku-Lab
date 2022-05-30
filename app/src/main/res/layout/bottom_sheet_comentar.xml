@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:id="@+id/design_bottom_sheet"
+    android:layout_width="match_parent"
+    app:behavior_hideable="true">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:orientation="vertical"
+        app:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="?android:actionBarSize"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/imageViewLike"
+                    android:layout_width="20dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/like"
+                    android:layout_height="20dp"/>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:background="@color/colorGray"
+                    android:layout_height="1dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutSinComentarios"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_marginTop="50dp"
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/chat_comment_icon"
+                    android:layout_gravity="center"
+                    android:layout_height="200dp"/>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="Sin comentarios aún"/>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="11dp"
+                    android:layout_height="wrap_content"
+                    android:text="Se el primero en comentar."/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerViewComentarios"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="wrap_content"
+                android:background="@color/colorGray"
+                android:layout_height="1dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:layout_marginEnd="10dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editTextMessage"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:hint="Escribe un comentario..."
+                    android:textColor="@color/colorBlack"
+                    android:padding="10dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:inputType="textMultiLine"
+                    android:textSize="15dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/custom_button_nocolor"
+                    android:backgroundTint="@color/colorGrayLight"/>
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:layout_marginTop="4dp"
+                    android:layout_gravity="top"
+                    android:id="@+id/fab_send"
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="5dp"
+                    app:fabCustomSize="40dp"
+                    android:src="@drawable/ic_send_white"
+                    app:backgroundTint="@color/greenPrimary"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+

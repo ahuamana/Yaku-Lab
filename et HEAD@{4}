@@ -1,0 +1,96 @@
+[33m4947849[m[33m ([m[1;36mHEAD -> [m[1;32mnewfeatures[m[33m)[m HEAD@{0}: commit: implemented spider challenge
+[33m3e4e7fa[m HEAD@{1}: reset: moving to HEAD@{1}
+[33m6611f0e[m HEAD@{2}: reset: moving to HEAD~1
+[33m3e4e7fa[m HEAD@{3}: reset: moving to HEAD~1
+[33m59fe77c[m HEAD@{4}: commit: implemented worm challenge
+[33m3e4e7fa[m HEAD@{5}: commit: remove apk generated
+[33m6611f0e[m HEAD@{6}: commit: implemented result from spider challenge
+[33maa03c6b[m HEAD@{7}: commit: implemented spider challenge
+[33mf98e00f[m[33m ([m[1;31morigin/newfeatures[m[33m)[m HEAD@{8}: commit: gravity center on cadrview image xml
+[33m9e151b4[m HEAD@{9}: commit: replace images
+[33m2db5f9d[m HEAD@{10}: commit: change way to show the images to load fastly the intent
+[33mbb465c5[m HEAD@{11}: commit: change animals challenge
+[33m10e18e6[m HEAD@{12}: commit: fixed when load images
+[33m89064ab[m HEAD@{13}: commit: improve ways when it load
+[33mbfb6026[m HEAD@{14}: commit: remove files generated
+[33mf329a18[m HEAD@{15}: commit: replace activity that aren't used
+[33m713d98f[m HEAD@{16}: commit: remove activities not used
+[33ma120547[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{17}: pull origin main: Fast-forward
+[33m55d0a7a[m HEAD@{18}: pull origin main: Fast-forward
+[33m8879a7e[m HEAD@{19}: commit: hide new button to show my registered test
+[33m394cce2[m HEAD@{20}: commit: minor bugs
+[33m063b542[m HEAD@{21}: commit: remove when keyboard open as a default
+[33m128fd6d[m HEAD@{22}: commit: implemented button to show my muestra
+[33m45a2788[m HEAD@{23}: commit: show location when click on floating action buttonm
+[33mbce486f[m HEAD@{24}: commit: remove marker if marker reciever it's different to the other
+[33m2f22779[m HEAD@{25}: commit: add marker from reciever
+[33mfdb8224[m HEAD@{26}: commit: added new changes
+[33m1d1a2f9[m HEAD@{27}: commit: added settings to google maps
+[33me073a98[m HEAD@{28}: commit: animate camera and set position on receiver position
+[33m9666530[m HEAD@{29}: commit: added new button on list
+[33mc44565c[m HEAD@{30}: commit: added dialog to show nacroneuria
+[33m7fabead[m HEAD@{31}: commit: added water challenges
+[33m2ab228e[m HEAD@{32}: commit: deletes apks created
+[33m2eb3c30[m HEAD@{33}: commit: change way to send data to main activity
+[33mfb34e67[m HEAD@{34}: commit: implemented way save location in background
+[33mf20dca8[m HEAD@{35}: commit: searchbar implemented for departamento y provincia
+[33me24aa0a[m HEAD@{36}: commit: change placeholder color from searchbar
+[33m8482367[m HEAD@{37}: commit: method to implement to look for alias on list
+[33md1eccbf[m HEAD@{38}: commit: change design
+[33ma266156[m HEAD@{39}: commit: change design for looking for others
+[33mca698e6[m HEAD@{40}: commit: update points
+[33mf0fde09[m HEAD@{41}: commit: change case 2 on image view pager
+[33md30ddbe[m HEAD@{42}: commit: ramdomize image and decripcion on result
+[33m6e11f57[m HEAD@{43}: commit: ramdomzise butterfly descripcion, butterfly image, and points
+[33mbaaa9b1[m HEAD@{44}: commit: able to update photo
+[33m66df8e6[m HEAD@{45}: commit: added click on image show full image
+[33m45bc143[m HEAD@{46}: commit: validad if mMap is loading
+[33md754348[m HEAD@{47}: commit: query animals provider DESCENDENDIN
+[33mcea6f67[m HEAD@{48}: commit: hide imagetextnotupload when you upload the photo
+[33ma776886[m HEAD@{49}: commit: remove visibility from image not upload when it brings data from firebase
+[33mae0a2d7[m HEAD@{50}: commit: change design from challenge butterfly
+[33md258178[m HEAD@{51}: commit: like change color if you clicked again
+[33m94a7652[m HEAD@{52}: commit: option to like on bottom sheet dialog
+[33m42cc2cf[m HEAD@{53}: commit: constantly listen likes if status change on botomm sheet dialog
+[33m2db1352[m HEAD@{54}: commit: remove listener if it destroy
+[33mbab1562[m HEAD@{55}: commit: hide linearlayout comment
+[33m151d1ac[m HEAD@{56}: commit: change way to query new comments
+[33m7b06211[m HEAD@{57}: commit: change method to list by idphoto
+[33m6c01310[m HEAD@{58}: commit: first working list from comments
+[33m1b7c9cb[m HEAD@{59}: commit: now list comments
+[33m672ceb3[m HEAD@{60}: commit: added variable on model Comment and also create Adapter to show comments
+[33m3d8580d[m HEAD@{61}: commit: first test create comment
+[33md8c7446[m HEAD@{62}: commit: send data to comentar bottom sheet
+[33m2e22966[m HEAD@{63}: commit: login activity design change when you clicked
+[33md135698[m HEAD@{64}: commit: custom comment bottom sheet finalized
+[33m3afd452[m HEAD@{65}: commit: implemented code for inflate bottom sheet dialog fragment with 85% of screen
+[33m9641de4[m HEAD@{66}: commit: now can be able to show dialog comentarios
+[33m0ef009c[m HEAD@{67}: commit: create bottom sheet dialogfragment with design
+[33mb081aaf[m HEAD@{68}: commit: comentarios
+[33m7393da8[m HEAD@{69}: commit: update status
+[33mb362866[m HEAD@{70}: commit: finishing likes from db
+[33mb70c4df[m HEAD@{71}: commit: create like completed
+[33mcfc8fc3[m HEAD@{72}: commit: inflate activvity points on result activity
+[33m3b08ff2[m HEAD@{73}: commit: create like on db
+[33me5e9cf0[m HEAD@{74}: commit: added placeholder
+[33ma9ce910[m HEAD@{75}: commit: added document id inside photos molde
+[33m57ae234[m HEAD@{76}: commit: added id to fotos
+[33me620f3f[m HEAD@{77}: commit: set color when you click like
+[33m6964fe1[m HEAD@{78}: commit: design cardview animals
+[33m5b2dfd3[m HEAD@{79}: commit: return main activity
+[33m12224f3[m HEAD@{80}: commit: implemente activity for butterfly
+[33m1723149[m HEAD@{81}: commit: create activity for butterfly challenge
+[33m3eaa9a2[m HEAD@{82}: commit: finish design custom dialog
+[33m03206be[m HEAD@{83}: commit: finish deaign
+[33meb85014[m HEAD@{84}: commit: addded custom dialog and inflate it
+[33m1d00dd0[m HEAD@{85}: commit: change image on placeholder
+[33mfbaf71c[m HEAD@{86}: commit: change design from digital laboratory
+[33m46aebd6[m HEAD@{87}: commit: change fragment to activity
+[33m00b96a5[m HEAD@{88}: commit: change design in register activity
+[33ma25f3de[m HEAD@{89}: commit: code refactorize
+[33m18402a8[m HEAD@{90}: commit: change design from register microbiologic test
+[33maa6ccae[m HEAD@{91}: commit: show activity registrar activity
+[33m89708a2[m HEAD@{92}: commit: finish deaign how to test
+[33mde2eab0[m HEAD@{93}: commit: change design newfeatures
+[33m62f0030[m[33m ([m[1;32mmain[m[33m)[m HEAD@{94}: checkout: moving from main to newfeatures
+[33m62f0030[m[33m ([m[1;32mmain[m[33m)[m HEAD@{95}: clone: from https://github.com/ahuamana/Agua-Limpia-android-studio.git

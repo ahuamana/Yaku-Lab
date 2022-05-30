@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    android:layout_marginTop="45dp"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/card_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/icon_menu"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:civ_border_color="@color/colorSecondaryYaku"
+            app:civ_border_width="5dp"
+            android:layout_marginStart="35dp"
+            android:src="@drawable/nouser_younger"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/greetings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Buen día "
+            android:layout_marginTop="10dp"
+            android:textColor="@color/color_text_web"
+            android:textSize="14dp"
+            app:layout_constraintStart_toEndOf="@+id/icon_menu"
+            app:layout_constraintTop_toTopOf="@+id/icon_menu" />
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/greetings_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            android:text="Antony N. "
+            android:textColor="@color/colorBlack"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="@+id/greetings"
+            app:layout_constraintTop_toBottomOf="@+id/greetings" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+    <TextView
+        android:id="@+id/emailNavigator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <View
+        android:id="@+id/divisor_final"
+        android:layout_width="match_parent"
+        android:layout_height="0.25dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@color/icons"/>
+
+</LinearLayout>
